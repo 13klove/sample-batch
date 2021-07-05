@@ -1,0 +1,6 @@
+spring:
+  batch:
+    initialize-schema: always
+    job:
+      names: ${job.name:NONE}
+
